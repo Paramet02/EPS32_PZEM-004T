@@ -12,12 +12,13 @@ const char *mqtt_broker = "broker.hivemq.com";
 const char *voltagetopic = "pzem/voltage";
 const char *currenttopic = "pzem/current";
 const char *powertopic = "pzem/power";
-const char *energytopic = "pzem/energy"; 
+const char *energytopic = "pzem/energy";
 const char *frequencytopic = "pzem/frequency";
 const char *pftopic = "pzem/pf";
 const char *mqtt_username = "";
 const char *mqtt_password = "";
 const int mqtt_port = 1883;
+const int mqtt_port = 1900;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
