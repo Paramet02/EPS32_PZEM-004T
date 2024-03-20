@@ -18,7 +18,6 @@ const char *pftopic = "pzem/pf";
 const char *mqtt_username = "";
 const char *mqtt_password = "";
 const int mqtt_port = 1883;
-const int mqtt_port = 1900;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
